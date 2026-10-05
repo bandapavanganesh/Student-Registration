@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 2rem 1rem;
+    color: #222;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    color: #14213d;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    background: #fafbfd;
+}
+
+td {
+    border: 1px solid #999;
+    padding: 10px 14px;
+    vertical-align: top;
+}
+
+td:first-child {
+    background: #e8ebf3;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    min-width: 220px;
+    padding: 6px;
+    box-sizing: border-box;
+    font: inherit;
+}
+
+td label { margin-right: 12px; font-weight: normal; }
+td:first-child label { font-weight: bold; margin: 0; }
+
+td.actions {
+    text-align: center;
+    background: #fff;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    padding: 8px 20px;
+    margin: 0 6px;
+    font: inherit;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    background: #14213d;
+    color: #fff;
+    border: 1px solid #14213d;
+}
+
+@media (max-width: 520px) {
+    td { display: block; }
+    table { width: 100%; }
+}
